@@ -5,10 +5,18 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "static": "nodemon ./server/bin/www"
   },
   "dependencies": {
+    "cookie-parser": "~1.4.4",
     "core-js": "^3.6.5",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
     "vue": "^2.6.11"
   },
   "devDependencies": {
